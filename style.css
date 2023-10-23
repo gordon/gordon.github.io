@@ -1,0 +1,44 @@
+body {
+  font-family: "trebuchet ms", "Courier New", Courier, monospace;
+  font-size: 16px;
+  width: 600px;
+  margin: auto;
+  background-color: gray;
+  color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+#main{
+  background-color:white;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: solid black 1px;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+  border-bottom: thin dotted green;
+}
+a:visited {
+  color: gray;
+  text-decoration: none;
+  border-bottom: thin dotted gray;
+}
+a:hover {
+  background: #DDDDDD;
+}
+#footer{
+  font-size: 80%;
+  text-align: center;
+  padding: 3px;
+  margin-top: 20px;
+  background-color: #CCCCCC;
+  border: solid black 1px;
+}
+li {
+  list-style-type: square;
+}
+pre {
+  font-size: 12px;
+}
